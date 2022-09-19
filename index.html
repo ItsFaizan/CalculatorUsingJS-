@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+   
+    <div class ="textbox">
+      
+            <input type="text" id="result">
+            <button value="AC" onclick="clearScreen()" id="AC" input type="button21">AC</button>
+          
+      
+    </div>
+   <div class="b1">
+    <span>
+        <button value="P" onclick="display('P')"  input type="button1">nPr</button>
+        <button value="C" onclick="display('C')"  input type="button2">nCr</button>
+        <button value="%" onclick="display('%')"  input type="button3">Mod</button>
+        <button value="/"   onclick="display('/')"  input type="button4">/</button>
+    </span>
+    </div>
+    <div class="b2">
+        <button value="7" onclick="display('7')"  input type ="button5">7</button>
+        <button value="8" onclick="display('8')"  input type="button6">8</button>
+        <button value="9" onclick="display('9')"  input type="button7">9</button>
+        <span>
+        <button value="*" onclick="display('*')"  input type="button8">x</button>
+    </span>
+    
+    </div>
+    <div class="b3">
+        <button value="4" onclick="display('4')"  input type="button9">4</button>
+        <button value="5" onclick="display('5')"  input type="button10">5</button>
+        <button value="6" onclick="display('6')"  input type="button11">6</button>
+        <span>
+        <button value="-" onclick="display('-')"  input type="button12">−</button>
+    </span>
+    </div>
+    <div class="b4">
+        <button value="1" onclick="display('1')"  input type="button13">1</button>
+        <button value="2" onclick="display('2')" input type="button14">2</button>
+        <button value="3" onclick="display('3')" input type="button15">3</button>
+    <span>
+        <button value="+" onclick="display('+')" input type="button16">+</button>
+    </span>
+    </div>
+    <div class="b5">
+        <button value="!" onclick="display('!')" input type="button17">x!</button>
+        <button value="0" onclick="display('0')"  input type="button18">0</button>
+        <button value="." onclick="display('.')"  input type="button19">.</button>
+        
+        <span>
+            <button value="=" onclick="evaluation()" id="btn"  input type="button20">=</button>
+            
+    </span>
+    </div>
+    
+   <div class="name">
+    <h1>Ⓒ Faizan Javed 20i-1832 SE-P</h1>
+   </div>
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>

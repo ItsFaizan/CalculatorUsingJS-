@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+button{
+    background-color: black;
+    border-radius: 0px;
+    color: white;
+    padding: 5px;
+    font-size: 31px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  
+}
+
+span button{
+    color: white;
+    background-color: blueviolet;
+    border-radius:400px;
+    padding: 20px 0;
+    border: 3px solid black;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: blueviolet;
+}
+
+
+span button:hover{
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+}
+
+#result{
+    height:100px;
+    width: 300px;
+    font-size: 31px;
+    border-radius:16px;
+}
+
+
+#AC {
+    border-radius:400px;
+    background-color: #fb0066;
+    
+}
+
+#AC:hover{
+    
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fb0066;
+    color: #fb0066;
+}
+
+.name{
+color: #fb0066;
+padding-right: 15px;
+text-align: 15px;
+}
